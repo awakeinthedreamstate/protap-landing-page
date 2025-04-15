@@ -19,8 +19,8 @@ export default function Hero() {
 
   return (
     <section
-      className="relative w-full h-[70vh] flex items-center 
-    overflow-hidden backdrop-filter backdrop-blur-sm"
+      className="relative w-full pt-16 h-[50vh] flex items-center 
+    overflow-hidden"
     >
       {/* Background Elements */}
       {/* <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-muted z-0">
@@ -44,19 +44,19 @@ export default function Hero() {
                 Venture Studio & Social Entrepreneurship
               </span>
             </div>*/}
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl leading-none">
+            <h1 className="text-[2.2rem] font-rude font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl leading-none">
               PROTAP & PARTNERS
             </h1>
-            <p className="max-w-[700px] text-lg text-muted-foreground md:text-xl px-[4px]">
+            <p className="max-w-[700px] text-lg text-gray-800 md:text-xl leading-snug">
               Improving the human condition through the bridging of art & design
               with holistic developments, products, and technology.
             </p>
           </div>
-          <div className="flex flex-wrap items-center gap-2 px-[4px]">
+          <div className="flex flex-wrap items-center gap-2">
             {/* <button className="h-8 w-40 rounded-sm bg-black text-white">
               Contact Us
             </button> */}
-            <Button
+            {/* <Button
               asChild
               size="lg"
               className="flex h-10 px-8 text-base group btn-hover-effect border-light-blue-500 bg-blue-500 rounded-md hover:bg-blue-600 focus:ring focus:ring-blue-300"
@@ -70,7 +70,7 @@ export default function Hero() {
               <Link className="leading-none h-auto" href="/brands">
                 Explore Our Brands
               </Link>
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

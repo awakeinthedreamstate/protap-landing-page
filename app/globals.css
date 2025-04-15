@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @theme {
-  --font-rude: "Rude-Semiwide-Bold", "serif";
   --color-protap-blue: hsl(182, 73%, 63%);
   --color-purple-dull: rgba(71, 61, 255, 0.6);
 }
@@ -112,9 +111,9 @@
 
 /* Custom font styles */
 @font-face {
-  font-family: "Rude-Semiwide-Bold";
-  src: url("/rude-semiwide-bold.ttf") format("truetype");
-  font-weight: 500; /* Regular */
+  font-family: "Rude-Bold";
+  src: url("/Rude-Bold.ttf") format("truetype");
+  font-weight: 900; /* Regular */
   font-style: normal;
 }
 

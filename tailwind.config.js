@@ -82,6 +82,9 @@ module.exports = {
       screens: {
         xs: "375px",
       },
+      fontFamily: {
+        rude: ['"Rude-Bold"', "serif"],
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

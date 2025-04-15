@@ -41,12 +41,11 @@ export default function FoundationInitiatives() {
   ];
 
   return (
-    <section className="w-full py-4 md:py-24 bg-background">
+    <section className="w-full py-4 md:py-24">
       <div className="container px-4 md:px-6">
-        <div className="max-w-3xl mx-auto text-center mb-2">
-          <hr className="my-3 border-t border-gray-300" />
-          <p className="text-muted-foreground md:text-lg">
-            We're committed to creating positive change through these key
+        <div className="max-w-3xl mx-auto text-center mb-4">
+          <p className="text-gray-800 md:text-lg">
+            We are committed to creating positive change through these key
             initiatives.
           </p>
         </div>
@@ -54,12 +53,19 @@ export default function FoundationInitiatives() {
         <div className="mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {initiatives.map((initiative, index) => (
             <div key={index}>
-              <Card className="flex flex-col h-full overflow-hidden border-none shadow-lg bg-gradient-to-br from-background to-background/80 hover:shadow-xl transition-shadow">
+              <Card
+                style={{
+                  backgroundImage: "url('/protap-bg.png')",
+                  backgroundRepeat: "repeat",
+                  backgroundSize: "100% auto",
+                }}
+                className=" flex flex-col h-full overflow-hidden border-none shadow-lg hover:shadow-xl transition-shadow"
+              >
                 <CardHeader className="pb-4">
                   <CardTitle className="text-xl">{initiative.name}</CardTitle>
                 </CardHeader>
                 <CardContent className="flex-1">
-                  <CardDescription className="text-base">
+                  <CardDescription className="text-base text-gray-800">
                     {initiative.description}
                   </CardDescription>
                 </CardContent>

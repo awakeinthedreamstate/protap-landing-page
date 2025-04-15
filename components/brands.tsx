@@ -1,4 +1,10 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 export default function Brands() {
   const brands = [
@@ -72,17 +78,22 @@ export default function Brands() {
       description:
         "A conscious streetwear label showcasing expressionist ideals highlighting social activism, science, and religious mythology as reference points.",
     },
-  ]
+  ];
 
   return (
-    <section id="brands" className="w-full py-12 md:py-24 lg:py-32 bg-background">
+    <section
+      id="brands"
+      className="w-full py-12 md:py-24 lg:py-32 bg-background"
+    >
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Brands</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+              OUR BRANDS
+            </h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Our group of portfolio brands simultaneously and harmoniously serves our internal organisational needs and
-              target market.
+              Our group of portfolio brands simultaneously and harmoniously
+              serves our internal organisational needs and target market.
             </p>
           </div>
         </div>
@@ -93,13 +104,14 @@ export default function Brands() {
                 <CardTitle className="text-xl">{brand.name}</CardTitle>
               </CardHeader>
               <CardContent className="flex-1">
-                <CardDescription className="text-base">{brand.description}</CardDescription>
+                <CardDescription className="text-base">
+                  {brand.description}
+                </CardDescription>
               </CardContent>
             </Card>
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }
-

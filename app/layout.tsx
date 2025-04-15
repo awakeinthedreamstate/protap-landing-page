@@ -19,12 +19,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-rude">
-        {/* <img
-          src="./back_blob-removebg-preview.png"
-          className="absolute right-0 top-20 z-0 dev-border"
-        /> */}
-
+      <body
+        className={inter.className}
+        style={{
+          backgroundImage: "url('/protap-bg.png')",
+          backgroundRepeat: "repeat",
+          backgroundSize: "100% auto",
+          width: "100vw",
+          height: "100vh",
+        }}
+      >
         {children}
       </body>
     </html>
