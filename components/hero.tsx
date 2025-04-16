@@ -19,23 +19,9 @@ export default function Hero() {
 
   return (
     <section
-      className="relative w-full pt-16 h-[50vh] flex items-center 
+      className="relative w-full pt-16 h-[50vh] md:h-[50vh] lg:h-[70vh] flex items-center 
     overflow-hidden"
     >
-      {/* Background Elements */}
-      {/* <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-muted z-0">
-        <div className="absolute top-20 left-10 w-64 h-64 rounded-full bg-primary/5 blur-3xl"></div>
-        <div className="absolute bottom-20 right-10 w-80 h-80 rounded-full bg-primary/10 blur-3xl"></div>
-      </div> */}
-
-      {/* Grid Pattern */}
-      {/* <div
-        className="absolute inset-0 "
-        style={{
-          transform: `translateY(${scrollY * 0.1}px)`,
-        }}
-      ></div> */}
-
       <div className="container relative px-5 sm:px-8 lg:px-[92px] z-10 ">
         <div className="flex flex-col space-y-8">
           <div className="space-y-4">

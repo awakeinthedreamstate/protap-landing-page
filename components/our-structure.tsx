@@ -18,13 +18,13 @@ export default function OurStructure() {
   ];
 
   return (
-    <section className="w-full py-4 md:py-4 px-5 sm:px-8 lg:px-[92px]">
+    <section className="w-full py-4 md:py-4 px-5 sm:px-8 lg:px-[150px]">
       <div>
         <div className="text-left mb-4">
-          <h2 className="text-xl text-center font-bold tracking-tighter md:text-md mb-2">
+          <h2 className="text-xl md:text-2xl text-center font-bold tracking-tighter mb-2">
             ABOUT US
           </h2>
-          <p className="text-gray-800 text-center md:text-2xl">
+          <p className="text-gray-800 md:leading-tight text-center md:text-xl md:px-20">
             Protap is a venture studio and social entrepreneurship platform that
             aims to improve the human condition through the bridging of art &
             design with holistic developments, products, and technology, using
@@ -38,31 +38,23 @@ export default function OurStructure() {
           {structures.map((structure, index) => (
             <div
               key={index}
-              className={`flex flex-col text-center md:flex-row items-start ${
-                index % 2 === 1
-                  ? "md:flex-row-reverse sm:text-right text-left"
-                  : ""
-              }`}
+              className={`flex flex-col text-center md:flex-row justify-center items-center`}
             >
-              <div
-                className={`w-full md:w-1/2 ${
-                  index % 2 === 0 ? "md:pr-12" : "md:pl-12"
-                }`}
-              >
+              <div className={`w-full md:px-40`}>
                 <div className="relative">
-                  <h3 className="text-2xl font-bold mt-4 mb-2">
+                  <h3 className="text-xl md:text-2xl font-bold mt-4 mb-2">
                     {structure.title}
                   </h3>
-                  <p className="text-gray-800 text-lg mb-4 leading-snug">
+                  <p className="text-gray-800 md:text-xl text-lg mb-4 leading-snug">
                     {structure.description}
                   </p>
                 </div>
               </div>
-              <div
+              {/* <div
                 className={`hidden md:block w-1/2 h-62 ${
                   index % 2 === 0 ? "bg-gradient-to-r" : "bg-gradient-to-l"
                 } from-background to-muted/50 rounded-lg mt-6`}
-              ></div>
+              ></div> */}
             </div>
           ))}
         </div>

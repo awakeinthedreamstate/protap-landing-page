@@ -25,10 +25,10 @@ export default function ContactFormHome() {
 
   return (
     <section className="w-full py-8 md:py-24">
-      <div className="container px-4 md:px-6">
-        <div className="grid gap-5 lg:grid-cols-2">
+      <div className="container md:w-[50%] px-4 md:px-6">
+        <div className="grid gap-5 lg:grid-cols-1">
           <div className="space-y-6">
-            <h2 className="text-3xl text-center font-bold tracking-tighter md:text-4xl">
+            <h2 className="text-2xl text-center font-bold tracking-tighter md:text-5xl">
               CONTACT US
             </h2>
             <p className="text-gray-800 text-center md:text-lg">

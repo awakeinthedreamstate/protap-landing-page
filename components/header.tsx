@@ -25,14 +25,9 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50">
+    <header className="fixed w-full top-0 left-0 right-0 z-50">
       <div
-        style={{
-          backgroundImage: "url('/protap-bg.png')",
-          backgroundRepeat: "repeat",
-          backgroundSize: "100% auto",
-        }}
-        className="container mx-auto px-4 py-4 "
+        className={`container mx-auto px-4 py-4 bg-[url('/protap-bg.png')] bg-repeat sm:bg-[length:50%_auto] bg-[length:100%_auto]`}
       >
         <nav className="flex items-center justify-between relative">
           {/* Logo on the left for mobile */}
@@ -60,10 +55,10 @@ export default function Header() {
                 key={item.name}
                 href={item.href}
                 className={cn(
-                  "text-sm font-medium transition-colors hover:text-primary relative py-2",
+                  "text-md font-medium transition-colors hover:text-primary relative py-2",
                   pathname === item.href
                     ? "text-primary after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-primary"
-                    : "text-muted-foreground"
+                    : "text-gray-800"
                 )}
               >
                 {item.name}
@@ -114,7 +109,7 @@ export default function Header() {
             backgroundRepeat: "repeat",
             backgroundSize: "100% auto",
           }}
-          className="md:hidden fixed inset-0 top-16 z-40"
+          className="md:hidden h-auto fixed inset-0 top-16 z-40"
         >
           <nav className="container flex flex-col gap-6 p-6">
             {navigation.map((item) => (

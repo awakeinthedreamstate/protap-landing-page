@@ -94,7 +94,7 @@
   }
 
   .dev-border {
-    @apply border-2 border-dashed border-primary/20;
+    @apply border-2 border-dashed border-red-500;
   }
 
   .opacity-0 {

@@ -20,14 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={inter.className}
-        style={{
-          backgroundImage: "url('/protap-bg.png')",
-          backgroundRepeat: "repeat",
-          backgroundSize: "100% auto",
-          width: "100vw",
-          height: "100vh",
-        }}
+        className={`${inter.className} bg-[url('/protap-bg.png')] bg-repeat sm:bg-[length:50%_auto] bg-[length:100%_auto]`}
       >
         {children}
       </body>
