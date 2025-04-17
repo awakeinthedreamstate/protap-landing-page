@@ -79,7 +79,7 @@ export default function Footer() {
             <h3 className="text-sm font-medium">Connect</h3>
             <div className="flex space-x-4">
               <Link
-                href="#"
+                href="https://www.instagram.com/protapandpartners?igsh=cmlsYTljYmtsZmg0 "
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Instagram className="h-5 w-5" />

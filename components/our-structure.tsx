@@ -59,7 +59,7 @@ export default function OurStructure() {
                       href="https://drive.google.com/file/d/1radKruxDuwA-ZGGJr4uTSLNSGsiaEZmL/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex hover:text-gray-800 justify-center w-[40%] py-2 text-black text-sm font-medium rounded hover:bg-gray-800 transition duration-200"
+                      className="flex justify-center w-[40%] py-2 text-black text-sm font-medium"
                     >
                       Learn More{" "}
                       <ChevronRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
