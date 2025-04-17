@@ -33,7 +33,7 @@ export default function Header() {
           {/* Logo on the left for mobile */}
           <Link href="/" className="flex md:hidden items-center space-x-2 z-50">
             <span className="text-2xl font-bold font-rude tracking-tight">
-              P<span className="text-primary">+</span>P
+              P <span className="text-primary">+</span> P
             </span>
           </Link>
 

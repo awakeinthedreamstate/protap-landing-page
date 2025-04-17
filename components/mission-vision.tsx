@@ -8,7 +8,7 @@ export default function MissionVision() {
           <h2 className="text-xl font-bold tracking-tighter md:text-2xl mb-2">
             ETHOS
           </h2>
-          <p className="text-gray-800 md:text-xl text-lg">
+          <p className="text-gray-800 md:text-xl text-base leading-snug">
             A soul-led company, prioritising people, purpose, and planet.
           </p>
         </div>
@@ -16,7 +16,7 @@ export default function MissionVision() {
           <h2 className="text-xl font-bold tracking-tighter md:text-2xl mb-2">
             MISSION
           </h2>
-          <p className="text-gray-800 md:text-xl text-lg">
+          <p className="text-gray-800 md:text-xl text-base leading-snug">
             Our mission is to be a force for good and a tool for positive
             change, implementing business practices that aim to serve the human
             collective and the environment. Motivated by values that foster
@@ -27,7 +27,7 @@ export default function MissionVision() {
           <h2 className="text-xl font-bold tracking-tighter md:text-2xl mb-2">
             VISION
           </h2>
-          <p className="text-gray-800 md:text-xl text-lg">
+          <p className="text-gray-800 md:text-xl text-base leading-snug">
             Our vision is to be a socially conscious multinational corporation
             with a venture fund that is focused on impact-investing,
             prioritising innovative founders and early-stage startups, whilst

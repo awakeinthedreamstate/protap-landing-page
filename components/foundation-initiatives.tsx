@@ -43,13 +43,6 @@ export default function FoundationInitiatives() {
   return (
     <section className="w-full py-4 md:py-24">
       <div className="container px-4 md:px-6">
-        <div className="max-w-3xl mx-auto text-center mb-4">
-          <p className="text-gray-800 md:text-lg">
-            We are committed to creating positive change through these key
-            initiatives.
-          </p>
-        </div>
-
         <div className="mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {initiatives.map((initiative, index) => (
             <div key={index}>

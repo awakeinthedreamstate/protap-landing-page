@@ -19,7 +19,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative w-full pt-16 h-[50vh] md:h-[50vh] lg:h-[70vh] flex items-center 
+      className="relative w-full pt-16 h-[30vh] md:h-[50vh] lg:h-[70vh] flex items-center 
     overflow-hidden"
     >
       <div className="container relative px-5 sm:px-8 lg:px-[92px] z-10 ">
@@ -33,10 +33,10 @@ export default function Hero() {
             <h1 className="text-[2.2rem] font-rude font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl leading-none">
               PROTAP & PARTNERS
             </h1>
-            <p className="max-w-[700px] text-lg text-gray-800 md:text-xl leading-snug">
+            {/* <p className="max-w-[700px] text-lg text-gray-800 md:text-xl leading-snug">
               Improving the human condition through the bridging of art & design
               with holistic developments, products, and technology.
-            </p>
+            </p> */}
           </div>
           <div className="flex flex-wrap items-center gap-2">
             {/* <button className="h-8 w-40 rounded-sm bg-black text-white">

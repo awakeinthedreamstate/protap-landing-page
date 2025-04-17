@@ -1,6 +1,6 @@
 export default function AboutContent() {
   return (
-    <section className="w-full  md:py-12">
+    <section className="w-full mb-5 md:py-12">
       <div className="container px-4 md:px-6">
         <div className="max-w-3xl mx-auto">
           <p className="text-gray-800 text-center md:text-lg mb-8">

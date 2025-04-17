@@ -1,13 +1,13 @@
 export default function FoundationHero() {
   return (
-    <section className="relative w-full py-16 md:py-28 overflow-hidden">
+    <section className="relative w-full py-14 md:py-28 overflow-hidden">
       <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
       <div className="container px-4 md:px-6 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-3xl font-bold tracking-tighter md:text-5xl mb-6">
+          <h1 className="text-2xl font-bold tracking-tighter md:text-5xl mb-6">
             OUR FOUNDATION
           </h1>
-          <p className="text-xl text-gray-800 leading-tight">
+          <p className="text-base text-gray-800 leading-tight">
             Our philanthropic initiatives revolving around humanitarianism,
             environmentalism, education, and economic empowerment.
           </p>

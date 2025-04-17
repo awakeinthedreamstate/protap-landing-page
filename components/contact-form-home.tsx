@@ -31,7 +31,7 @@ export default function ContactFormHome() {
             <h2 className="text-2xl text-center font-bold tracking-tighter md:text-5xl">
               CONTACT US
             </h2>
-            <p className="text-gray-800 text-center md:text-lg">
+            <p className="text-gray-800 text-base text-center md:text-lg">
               We'd love to hear from you. Fill out the form and our team will
               get back to you as soon as possible.
             </p>

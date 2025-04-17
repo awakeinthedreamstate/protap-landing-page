@@ -1,3 +1,5 @@
+import { ChevronRight } from "lucide-react";
+
 export default function OurStructure() {
   const structures = [
     {
@@ -11,7 +13,7 @@ export default function OurStructure() {
         "We offer brand management and hybrid consulting services, focusing on personal brands, business brands, and public organisations. We utilise a bespoke method of brand alchemy, deploying strategies that transforms the ordinary into the refined.",
     },
     {
-      title: "FOUNDATION.",
+      title: "FOUNDATION",
       description:
         "We are involved in philanthropic advocacy and field work revolving around passion projects and social impact initiatives that are in alignment with our purpose and mission.",
     },
@@ -41,13 +43,30 @@ export default function OurStructure() {
               className={`flex flex-col text-center md:flex-row justify-center items-center`}
             >
               <div className={`w-full md:px-40`}>
-                <div className="relative">
+                <div className="relative flex flex-col items-center">
                   <h3 className="text-xl md:text-2xl font-bold mt-4 mb-2">
                     {structure.title}
                   </h3>
-                  <p className="text-gray-800 md:text-xl text-lg mb-4 leading-snug">
+                  <p
+                    className={`text-gray-800 md:text-xl ${
+                      index === 2 ? "" : "mb-4"
+                    } text-base leading-snug`}
+                  >
                     {structure.description}
                   </p>
+                  {index === 2 ? (
+                    <a
+                      href="https://drive.google.com/file/d/1radKruxDuwA-ZGGJr4uTSLNSGsiaEZmL/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex hover:text-gray-800 justify-center w-[40%] py-2 text-black text-sm font-medium rounded hover:bg-gray-800 transition duration-200"
+                    >
+                      Learn More{" "}
+                      <ChevronRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                    </a>
+                  ) : (
+                    <></>
+                  )}
                 </div>
               </div>
               {/* <div

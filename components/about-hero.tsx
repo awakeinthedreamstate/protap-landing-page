@@ -4,10 +4,10 @@ export default function AboutHero() {
       {/* <div className="absolute inset-0  opacity-10"></div> */}
       <div className="container px-4 md:px-6 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-3xl font-bold tracking-tighter md:text-5xl mb-6">
+          <h1 className="text-2xl font-bold tracking-tighter md:text-5xl mb-6">
             ABOUT US
           </h1>
-          <p className="text-xl text-gray-800 leading-tight">
+          <p className="text-base text-gray-800 leading-tight">
             Learn about our mission, vision, and the structure that drives our
             venture studio and social entrepreneurship platform.
           </p>
