@@ -117,6 +117,12 @@
   font-style: normal;
 }
 
+@media (max-width: 374px) {
+  .main-text {
+    font-size: 1.8rem;
+  }
+}
+
 /* Background patterns */
 .bg-grid-pattern {
   background-image: linear-gradient(
