@@ -31,8 +31,10 @@ export default function OurStructure() {
             aims to improve the human condition through the bridging of art &
             design with holistic developments, products, and technology, using
             ethical capitalism with philanthropic work as conduits for realising
-            our mission. Our organisation is structured into three operational
-            arms:
+            our mission.
+          </p>
+          <p className="text-gray-800 md:leading-tight text-center md:text-xl md:px-20">
+            Our organisation is structured into three operational arms:
           </p>
         </div>
 

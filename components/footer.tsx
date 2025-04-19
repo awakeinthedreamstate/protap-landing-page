@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="w-full py-12 md:py-16 ">
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-2 gap-10 md:grid-cols-2 lg:grid-cols-4">
-          <div className="flex hidden md:block items-start gap-2">
+          <div className="hidden md:block items-start gap-2">
             <Link href="/" className="flex items-center space-x-2">
               <span className="text-3xl font-rude font-bold">
                 P<span className="text-primary">+</span>P
@@ -101,7 +101,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t pt-6">
-          <p className="text-center text-sm text-gray-800">
+          <p className="text-center text-xs text-gray-800">
             © {currentYear} Protap & Partners. All rights reserved.
           </p>
         </div>

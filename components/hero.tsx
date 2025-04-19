@@ -19,7 +19,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative w-full pt-16 h-[30vh] md:h-[50vh] lg:h-[70vh] flex items-center 
+      className="relative w-full pt-16 h-[40vh] md:h-[50vh] lg:h-[70vh] flex items-center 
     overflow-hidden"
     >
       <div className="container relative px-5 sm:px-8 lg:px-[92px] z-10 ">
@@ -30,10 +30,10 @@ export default function Hero() {
                 Venture Studio & Social Entrepreneurship
               </span>
             </div>*/}
-            <h1 className="text-[2.2rem] mb-1 font-rude font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl leading-none">
+            <h1 className="text-[2.1rem] text-center mb-1 font-rude font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl leading-none">
               PROTAP & PARTNERS
             </h1>
-            <p className="max-w-[700px] mt-none text-lg text-gray-800 md:text-xl leading-snug">
+            <p className="max-w-[700px] mt-none text-center text-lg text-gray-800 md:text-xl leading-snug">
               Building the Future...
             </p>
           </div>
