@@ -122,7 +122,8 @@ export default function BrandsGrid() {
       description:
         "A conscious streetwear label showcasing expressionist ideals highlighting social activism, science, and religious mythology as reference points.",
       category: "Fashion",
-      guide: "",
+      guide:
+        "https://drive.google.com/file/d/1MrHfEHfyGwrh7QdhoXnZJ-_Fj65HyvNj/view?usp=sharing",
     },
   ];
 

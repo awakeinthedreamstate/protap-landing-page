@@ -8,8 +8,9 @@ export default function BrandsHero() {
             OUR BRANDS
           </h1>
           <p className="text-base text-gray-800 leading-snug">
-            Our group of portfolio brands simultaneously and harmoniously serves
-            our internal organisational needs and target market.
+            Our portfolio of brands are designed to enhance the human
+            experience, making it more enriching, more fulfilling, and
+            more purposeful.
           </p>
         </div>
       </div>

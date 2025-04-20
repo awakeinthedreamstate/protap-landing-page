@@ -27,7 +27,7 @@ export default function Header() {
   return (
     <header className="fixed w-full top-0 left-0 right-0 z-50">
       <div
-        className={`container mx-auto px-4 py-4 bg-[url('/protap-bg.png')] bg-repeat sm:bg-[length:50%_auto] bg-[length:100%_auto]`}
+        className={`container mx-auto px-4 py-5 bg-[url('/protap-bg.png')] bg-repeat sm:bg-[length:50%_auto] bg-[length:100%_auto]`}
       >
         <nav className="flex items-center justify-between relative">
           {/* Logo on the left for mobile */}
