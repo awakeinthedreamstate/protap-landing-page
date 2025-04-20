@@ -31,11 +31,22 @@ export default function Header() {
       >
         <nav className="flex items-center justify-between relative">
           {/* Logo on the left for mobile */}
-          <Link href="/" className="flex md:hidden items-center space-x-2 z-50">
+          {/* <Link href="/" className="flex md:hidden items-center space-x-2 z-50">
             <span className="text-2xl font-bold font-rude tracking-tight">
               P <span className="text-primary">+</span> P
             </span>
-          </Link>
+          </Link> */}
+          <button
+            className="md:hidden z-50"
+            onClick={toggleMenu}
+            aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
+          >
+            {isMenuOpen ? (
+              <X className="h-6 w-6" />
+            ) : (
+              <Menu className="h-6 w-6" />
+            )}
+          </button>
 
           {/* Logo on the left for desktop */}
           <Link href="/" className="hidden md:flex items-center space-x-2">

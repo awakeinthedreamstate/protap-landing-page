@@ -20,7 +20,8 @@ export default function BrandsGrid() {
       description:
         "A research and technology consulting firm offering data analytics, cybersecurity, and AI services across sectors, serving private and public organisations.",
       category: "Technology",
-      guide: "",
+      guide:
+        "https://drive.google.com/file/d/1VScs03jUyYb_HBO9ocQImpItoh9gM6ZB/view?usp=sharing",
     },
     {
       name: "PROTISAN",
@@ -35,7 +36,8 @@ export default function BrandsGrid() {
       description:
         "A full-service brand consulting & marketing agency offering tailored brand strategy solutions, PR, AI marketing, digital marketing, growth marketing, content & social media marketing services.",
       category: "Consulting",
-      guide: "",
+      guide:
+        "https://drive.google.com/file/d/1ZZk1mSONq6GjCrsYi4BT_9YVE1jIUbLW/view?usp=sharing",
     },
     {
       name: "MAIZE",
@@ -97,7 +99,8 @@ export default function BrandsGrid() {
       description:
         "A visual design, apparel production and distribution company providing value chain infrastructure management for African fashion designers.",
       category: "Fashion",
-      guide: "",
+      guide:
+        "https://drive.google.com/file/d/1BlRe4AreYs8E4jHuRhcaAZEcuxKCGDdm/view?usp=sharing",
     },
     {
       name: "TREE OF WANDS",
