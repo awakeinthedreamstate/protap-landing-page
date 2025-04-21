@@ -26,7 +26,7 @@ export default function BrandsGrid() {
     {
       name: "PROTISAN",
       description:
-        "A mobile app connecting users to creative talents and artisans, simplifying the complex procedures involved in creative & technical labour hiring.",
+        "A mobile app that connects users to artisans, skilled workers, and select creative talents, simplifying the complex procedures involved in skilled trades and technical labor hiring. Our goal is to disrupt the poor quality of services and user experiences that are synonymous with this sector in Nigeria.",
       category: "Technology",
       guide:
         "https://drive.google.com/file/d/1SkemSC3mvqmoF3ZKQFkJrsqr48m_cKlq/view?usp=sharing",

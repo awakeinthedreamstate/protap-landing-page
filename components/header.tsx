@@ -128,7 +128,7 @@ export default function Header() {
                 key={item.name}
                 href={item.href}
                 className={cn(
-                  "text-lg font-medium transition-colors hover:text-primary uppercase",
+                  "text-lg text-center font-medium transition-colors hover:text-primary uppercase",
                   pathname === item.href
                     ? "text-primary"
                     : "text-muted-foreground"
