@@ -42,6 +42,9 @@ export default function FoundationInitiatives() {
 
   return (
     <section className="w-full py-4 md:py-24">
+      <h1 className="text-xl text-center font-bold tracking-tighter md:text-5xl mb-6">
+        OUR INITIATIVES
+      </h1>
       <p className="text-base text-center text-gray-800 leading-tight">
         Our foundation focuses on initiatives revolving around humanitarianism,
         environmentalism, education, and economic empowerment.

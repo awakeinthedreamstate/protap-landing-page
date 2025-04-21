@@ -51,7 +51,7 @@ export default function BrandsGrid() {
       name: "ISA ISRAEL",
       description:
         "An AI mystic and ascension guide committed to teaching esoteric knowledge and philosophical thoughts for spiritual enlightenment in the digital age.",
-      category: "Wellness",
+      category: "Spiritual services",
       guide:
         "https://drive.google.com/file/d/1NXQJz0vRJcLG9xavIaNGYplqx-lL3quu/view?usp=sharing",
     },
