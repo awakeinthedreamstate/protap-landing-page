@@ -66,7 +66,7 @@ export default function BrandsGrid() {
     {
       name: "ISOMI GALLERY",
       description:
-        "An art gallery and concept space showcasing contemporary African art, collected fine objects and artisanal craftwork.",
+        "An art gallery and concept space for showcasing contemporary African Art, collected fine objects and artisanal craftwork. A platform that offers representation for African visual artists.",
       category: "Art",
       guide:
         "https://drive.google.com/file/d/18ioJuvuQxsffTzWrdSnicQAXMg0WycXu/view?usp=sharing",
