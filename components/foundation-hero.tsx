@@ -5,11 +5,16 @@ export default function FoundationHero() {
       <div className="container px-4 md:px-6 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-2xl font-bold tracking-tighter md:text-5xl mb-6">
-            OUR FOUNDATION
+            PROTAP FOUNDATION
           </h1>
+          <p className="text-base mb-2 text-gray-800 leading-tight">
+            Protap Foundation is a non-profit organization dedicated to
+            harnessing the power of venture innovation to drive positive change.
+          </p>
           <p className="text-base text-gray-800 leading-tight">
-            Our philanthropic initiatives revolving around humanitarianism,
-            environmentalism, education, and economic empowerment.
+            We are involved in philanthropic advocacy and fieldwork revolving
+            around passion projects and social impact initiatives that align
+            with out purpose and mission.
           </p>
         </div>
       </div>

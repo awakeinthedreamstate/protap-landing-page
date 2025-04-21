@@ -42,6 +42,10 @@ export default function FoundationInitiatives() {
 
   return (
     <section className="w-full py-4 md:py-24">
+      <p className="text-base text-center text-gray-800 leading-tight">
+        Our foundation focuses on initiatives revolving around humanitarianism,
+        environmentalism, education, and economic empowerment.
+      </p>
       <div className="container px-4 md:px-6">
         <div className="mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {initiatives.map((initiative, index) => (
@@ -55,10 +59,12 @@ export default function FoundationInitiatives() {
                 className=" flex flex-col h-full overflow-hidden border-none shadow-lg hover:shadow-xl transition-shadow"
               >
                 <CardHeader className="pb-4">
-                  <CardTitle className="text-xl">{initiative.name}</CardTitle>
+                  <CardTitle className="text-xl text-center">
+                    {initiative.name}
+                  </CardTitle>
                 </CardHeader>
                 <CardContent className="flex-1">
-                  <CardDescription className="text-base text-gray-800">
+                  <CardDescription className="text-base text-center text-gray-800">
                     {initiative.description}
                   </CardDescription>
                 </CardContent>
