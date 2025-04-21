@@ -58,7 +58,7 @@ export default function BrandsGrid() {
     {
       name: "KAANDUU",
       description:
-        "A life design and wellness company enhancing mental, physical, and emotional well-being through holistic practices, natural solutions, and community.",
+        "Kaanduu is a life design and holistic wellness company dedicated to enhancing the mental, physical, and emotional well-being of the human collective. We achieve this through educational resources, natural solutions, and holistic practices that integrate mind, body, and spirit balance.",
       category: "Wellness",
       guide:
         "https://drive.google.com/file/d/1nLIT-yGG9ZscG3XDTBCpgHoSKhKVCZjc/view?usp=sharing",
