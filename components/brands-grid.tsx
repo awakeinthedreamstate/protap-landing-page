@@ -77,7 +77,7 @@ export default function BrandsGrid() {
         "An architectural and interior design studio focusing on residential, hospitality, and commercial projects with thoughtful designs that contribute to well-being.",
       category: "Design",
       guide:
-        "https://drive.usercontent.google.com/download?id=1dlJljD7vtHpHYuWZmU9_uDrfaD4m-jD3&export=download&authuser=0&confirm=t&uuid=9b9175b6-1ff2-4fdc-bf86-c4ea34e7bec1&at=APcmpozxRyNppHvGU0E1a_BZssSJ:1745330431259",
+        "https://drive.usercontent.google.com/download?id=1lG5yz6Q8TojFlcBkEo4ShIuEyW5IbC4C&export=download&authuser=0&confirm=t&uuid=4e50f564-bd14-41c9-b8a2-2ca54a40c1a6&at=APcmpow7smKvlubYvONJsUvf_cIK:1745333035774",
     },
     {
       name: "ISO. IGA. IDA.",

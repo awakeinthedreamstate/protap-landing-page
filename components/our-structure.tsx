@@ -58,7 +58,7 @@ export default function OurStructure() {
                   </p>
                   {index === 2 ? (
                     <a
-                      href="https://drive.google.com/file/d/1radKruxDuwA-ZGGJr4uTSLNSGsiaEZmL/view?usp=sharing"
+                      href="https://docs.google.com/gview?embedded=true&url=https://drive.usercontent.google.com/download?id=1YEOmdZkt02d-GHb0ZICR1BMTIhAvOqg4&export=download&authuser=0&confirm=t&uuid=e4ee8dc6-2a99-4542-a97d-d29c237bb79b&at=APcmpozbnvDWtq5xen7365e_0BX4:1745333105428"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex justify-center w-[40%] py-2 text-black text-sm font-medium"
