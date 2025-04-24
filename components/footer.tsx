@@ -86,13 +86,13 @@ export default function Footer() {
                 <span className="sr-only">Instagram</span>
               </Link>
 
-              <Link
+              {/* <Link
                 href="#"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
-              </Link>
+              </Link> */}
             </div>
             <div className="md:hidden items-start gap-2">
               <Link href="/" className="flex items-center space-x-2">

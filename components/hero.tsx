@@ -37,26 +37,6 @@ export default function Hero() {
               Building the Future...
             </p>
           </div>
-          <div className="flex flex-wrap items-center gap-2">
-            {/* <button className="h-8 w-40 rounded-sm bg-black text-white">
-              Contact Us
-            </button> */}
-            {/* <Button
-              asChild
-              size="lg"
-              className="flex h-10 px-8 text-base group btn-hover-effect border-light-blue-500 bg-blue-500 rounded-md hover:bg-blue-600 focus:ring focus:ring-blue-300"
-            >
-              <Link href="/contact">
-                Contact Us
-                <ChevronRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-              </Link>
-            </Button>
-            <Button className="h-8 bg-none shadow-none text-black px-4 text-base flex items-center">
-              <Link className="leading-none h-auto" href="/brands">
-                Explore Our Brands
-              </Link>
-            </Button> */}
-          </div>
         </div>
       </div>
     </section>
