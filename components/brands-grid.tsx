@@ -18,7 +18,7 @@ export default function BrandsGrid() {
     {
       name: "CU.CU",
       description:
-        "A research and technology consulting firm offering data analytics, cybersecurity, and AI services across sectors, serving private and public organisations.\nCU. INVESTMENTS \nCU. Investments is our business consulting and asset management arm, specializing in alternative investments such as cryptocurrencies, stocks, and commodities",
+        "A research and technology consulting firm offering data analytics, cybersecurity, and AI services across sectors, serving private and public organisations.\nCU. INVESTMENTS \nCU. Investments is our business consulting and asset management arm, specializing in alternative investments such as cryptocurrencies, stocks, and commodities.",
       category: "Technology",
       guide:
         "https://drive.usercontent.google.com/download?id=1Km3PjW1FU1uVWElEk9s2DSEREmB2yGVJ&export=download&authuser=0&confirm=t&uuid=acbea101-09c6-49a9-96e2-7f10d7d43a4b&at=APcmpoy_xBzrDqYL7xQDpOI-Wh5p:1745330764303",
