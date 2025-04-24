@@ -18,7 +18,7 @@ export default function BrandsGrid() {
     {
       name: "CU.CU",
       description:
-        "A research and technology consulting firm offering data analytics, cybersecurity, and AI services across sectors, serving private and public organisations.",
+        "A research and technology consulting firm offering data analytics, cybersecurity, and AI services across sectors, serving private and public organisations.\n*CU. INVESTMENTS* \nCU Investments is our business consulting and asset management arm, specializing in alternative investments such as cryptocurrencies, stocks, and commodities",
       category: "Technology",
       guide:
         "https://drive.usercontent.google.com/download?id=1Km3PjW1FU1uVWElEk9s2DSEREmB2yGVJ&export=download&authuser=0&confirm=t&uuid=acbea101-09c6-49a9-96e2-7f10d7d43a4b&at=APcmpoy_xBzrDqYL7xQDpOI-Wh5p:1745330764303",
@@ -26,7 +26,7 @@ export default function BrandsGrid() {
     {
       name: "PROTISAN",
       description:
-        "A mobile app that connects users to artisans, skilled workers, and select creative talents, simplifying the complex procedures involved in skilled trades and technical labor hiring. Our goal is to disrupt the poor quality of services and user experiences that are synonymous with this sector in Nigeria.",
+        "A mobile app that connects users to artisans, skilled workers, and select creative talents, simplifying the complex procedures involved in skilled trades and technical labor hiring. \nOur goal is to disrupt the poor quality of services and user experiences that are synonymous with this sector in Nigeria.",
       category: "Technology",
       guide:
         "https://drive.usercontent.google.com/download?id=15UZ8866LjhziV0d-oN8bnZbREA6yHIe0&export=download&authuser=0&confirm=t&uuid=ead59f54-f3d1-46ae-b66b-e444f61322dc&at=APcmpoz58PSbTEHv-k3VldNjT_dl:1745330790459",
@@ -82,7 +82,7 @@ export default function BrandsGrid() {
     {
       name: "ISO. IGA. IDA.",
       description:
-        "A concept fashion label that combines inspiration from the cross-disciplinary practice of art Ft design, as an expression of personality. \nAn idyllic intersection of artisanal craftsmanship, statement pieces, and clean tailoring, creating wearable relics and preserving cultural heritage.",
+        "A concept fashion label that combines inspiration from the cross-disciplinary practice of art & design, as an expression of personality. \nAn idyllic intersection of artisanal craftsmanship, statement pieces, and clean tailoring, creating wearable relics and preserving cultural heritage.",
       category: "Fashion",
       guide:
         "https://drive.usercontent.google.com/download?id=1miMA_SAbR_F4mSA4T7-UgUsAQroDy4uL&export=download&authuser=0&confirm=t&uuid=0f3eccd9-36a5-40a1-9b6a-c5e9e566a28e&at=APcmpozPWChHauLvoiePliggTkic:1745507234074",
@@ -180,7 +180,23 @@ export default function BrandsGrid() {
                         key={idx}
                         className="text-base text-gray-800 mb-2"
                       >
-                        {paragraph}
+                        {paragraph.split(/(\*.*?\*)/).map((part, partIdx) => {
+                          // Check if the part is enclosed in asterisks
+                          const isHighlighted =
+                            part.startsWith("*") && part.endsWith("*");
+                          return (
+                            <span
+                              key={partIdx}
+                              className={
+                                isHighlighted
+                                  ? "text-black text-xl font-bold"
+                                  : ""
+                              }
+                            >
+                              {isHighlighted ? part.slice(1, -1) : part}
+                            </span>
+                          );
+                        })}
                       </CardDescription>
                     ))}
                   </CardContent>
