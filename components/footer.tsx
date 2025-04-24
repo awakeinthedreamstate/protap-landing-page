@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="w-full py-12 md:py-16 ">
       <div className="container px-4 md:px-6">
-        <div className="grid grid-cols-2 gap-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-10 justify-center md:grid-cols-2 lg:grid-cols-3">
           <div className="hidden md:flex">
             <Link href="/" className="items-center space-x-2">
               <span className="text-3xl font-rude font-bold">
@@ -15,7 +15,7 @@ export default function Footer() {
               </span>
             </Link>
           </div>
-          <div className="space-y-4">
+          <div className="space-y-4 hidden md:block">
             <h3 className="text-sm font-medium">Navigation</h3>
             <nav className="flex flex-col space-y-2">
               <Link
@@ -75,7 +75,7 @@ export default function Footer() {
             </nav>
           </div> */}
 
-          <div className="space-y-4 ">
+          <div className="space-y-4 flex md:block flex-col items-center">
             <h3 className="text-sm font-medium">Connect</h3>
             <div className="flex space-x-4">
               <Link
