@@ -51,7 +51,7 @@ export default function Footer() {
             </nav>
           </div>
 
-          <div className="space-y-4">
+          {/* <div className="space-y-4">
             <h3 className="text-sm font-medium">Legal</h3>
             <nav className="flex flex-col space-y-2">
               <Link
@@ -73,7 +73,7 @@ export default function Footer() {
                 Cookie Policy
               </Link>
             </nav>
-          </div>
+          </div> */}
 
           <div className="space-y-4 ">
             <h3 className="text-sm font-medium">Connect</h3>
