@@ -42,10 +42,10 @@ export default function BrandsGrid() {
     {
       name: "MAIZE",
       description:
-        "A conscious media and educational content studio that creates and distributes informative, entertaining, and engaging content across digital platforms. \nA digital Lyceum, catering to individuals pursuing intellectual curiosity and mental stimulation. ",
+        "MAIZE MEDIA\nA conscious media and educational content studio that creates and distributes informative, entertaining, and engaging content across digital platforms. \nA digital Lyceum, catering to individuals pursuing intellectual curiosity and mental stimulation.\nMAIZE STUDIOS\nA visual content production and digital media distribution company. We focus on creating meaningful dialogues, lectures, and educational entertainment projects with intellectuals, educators, teachers, and experts in specific fields.",
       category: "Media",
       guide:
-        "https://drive.usercontent.google.com/download?id=1oPnjh_JIABob9NtOcPo5yB0YqX1zV5gh&export=download&authuser=0&confirm=t&uuid=b64808c3-ac08-4023-8def-2df2d470f289&at=APcmpoytsX6J_znalt2DouUAQzwR:1745325869953",
+        "https://drive.usercontent.google.com/download?id=1l4Q6lopJwuKjOID0DJgKb2CevW8ND_gR&export=download&authuser=0&confirm=t&uuid=101a2606-187a-4b96-8ee7-d751d60efe32&at=APcmpoxUupaWZvM5GL95PlLO4xGK:1746125576274",
     },
     {
       name: "ISA ISRAEL",
