@@ -10,7 +10,7 @@ export default function OurStructure() {
     {
       title: "MGMT.",
       description:
-        "We offer brand management and hybrid consulting services, focusing on personal brands, business brands, and public organisations. We utilise a bespoke method of brand alchemy, deploying strategies that transforms the ordinary into the refined.",
+        "We offer brand management and hybrid consulting services, focusing on personal brands, business brands, and public organisations.\nWe utilise a bespoke method of brand alchemy, deploying strategies that transforms the ordinary into the refined.",
     },
     {
       title: "FOUNDATION",
@@ -49,13 +49,17 @@ export default function OurStructure() {
                   <h3 className="text-xl md:text-2xl font-bold mt-4 mb-2">
                     {structure.title}
                   </h3>
-                  <p
+                  <div
                     className={`text-gray-800 md:text-xl ${
                       index === 2 ? "" : "mb-4"
                     } text-base leading-snug`}
                   >
-                    {structure.description}
-                  </p>
+                    {structure.description.split("\n").map((paragraph, idx) => (
+                      <p key={idx} className="mb-2">
+                        {paragraph}
+                      </p>
+                    ))}
+                  </div>
                   {index === 2 ? (
                     <a
                       href="https://docs.google.com/gview?embedded=true&url=https://drive.usercontent.google.com/download?id=1YEOmdZkt02d-GHb0ZICR1BMTIhAvOqg4&export=download&authuser=0&confirm=t&uuid=e4ee8dc6-2a99-4542-a97d-d29c237bb79b&at=APcmpozbnvDWtq5xen7365e_0BX4:1745333105428"
